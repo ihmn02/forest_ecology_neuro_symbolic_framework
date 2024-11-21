@@ -1,0 +1,44 @@
+name: DeepForest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bumpversion
+  - docutils<0.18
+  - furo
+  - geopandas
+  - h5py
+  - matplotlib
+  - nbmake
+  - nbsphinx
+  - numpy
+  - numpydoc
+  - opencv>=4.5.4
+  - pandas
+  - pillow>6.2.0
+  - pip
+  - psutil
+  - pytest
+  - pytest-profiling
+  - pytorch::pytorch
+  - pytorch-lightning>1.5.8
+  - pyyaml>=5.1.0
+  - rasterio
+  - recommonmark
+  - rtree
+  - slidingwindow
+  - setuptools
+  - sphinx
+  - sphinx_rtd_theme
+  - pytorch::torchvision
+  - tqdm
+  - tensorboard
+  - twine
+  - xmltodict
+  - yapf
+  - pip:
+    - sphinx-markdown-tables
+    - imagecodecs
+    - albumentations>=1.0.0
+    - comet_ml
+    - pycocotools
